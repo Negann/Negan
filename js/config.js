@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Corossia Darkrp";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,7 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/Corossia.jpg",
 ];
 
 /*Random background images order?*/
@@ -85,10 +83,8 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{ogg: "songs/carpenter-brut-turbo-killer.ogg", name: "Carpenter Turbo Killer"},
+	{youtube: "wy9r2qeouiQ", name: "Carpenter Brut - Turbo Killer"},
 ];
 
 /*Random music order?*/
@@ -103,9 +99,11 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Enjoy the server",
-"Thanks for joining us!",
-"Did you know these backgrounds and songs are from Touhou?"
+"İlk girişiniz ise dosyaları yüklediğiniz için uzun sürebilir!",
+"Workshop'a abone olmayı unutmayın. !w",
+"Kalitenin Tadını Çıkar!",
+"Desteğiniz İçin Teşekkürler!"
+"Biz daha iyisini yapana kadar en iyisi bu!"
 ];
 
 /*Random message order?*/
@@ -113,8 +111,8 @@ var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
-var l_messagesDelay = 5000;
+var l_messagesDelay = 15;
 
 /*Messages fade time
 in milliseconds*/
-var l_messagesFade = 1000;
+var l_messagesFade = 3;
